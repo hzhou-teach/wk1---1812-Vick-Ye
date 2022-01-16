@@ -9,7 +9,6 @@ int buckets2[10];
 //highest possible tank = 1000-1+100-1+100 = 1198
 int milk[1200];
 
-//monday -> friday
 void weekdays(int milkCount, int dayCount, int B1[10], int B2[11]) {
 	if(dayCount == 4) {
 		milk[milkCount] = 1;
